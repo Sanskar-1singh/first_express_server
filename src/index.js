@@ -11,7 +11,7 @@ app.listen(PORT,()=>{
     console.log(`server stated at port ${PORT}`);
 });
 
-//here i mention that bodyparser middleware will apply to all route and will convert json request body to javascript compatible types and print>>
+//here i mention that bodyparser middleware will apply to all route and will convert json request body to javascript compatible types i.e. string or javascript object and print>>
 app.use(bodyparser.json());
 app.use(bodyparser.text());
 //express middleware
