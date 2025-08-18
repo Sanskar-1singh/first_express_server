@@ -11,7 +11,7 @@ app.listen(PORT,()=>{
     console.log(`server stated at port ${PORT}`);
 });
 
-app.get('/ping',(req,res){
+app.get('/ping',(req,res)=>{
     console.log("bye bye");
 })
 //here i mention that bodyparser middleware will apply to all route and will convert json request body to javascript compatible types i.e. string or javascript object and print>>
