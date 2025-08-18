@@ -67,7 +67,7 @@ app.get('/products/:product_id/rating/:rate',(req,res)=>{
 })
 
 app.post('/data',(req,res)=>{
-    console.log(req.body);
+   // console.log(req.body);
     return res.json({msg:'ok'});
 })
 
