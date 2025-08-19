@@ -38,7 +38,7 @@ pipeline {
         }
         stage("Deploy to Production") {
             steps {
-                echo "this is deploying the code"
+                echo "this is deployinggg the code"
                 sh """
                     docker rm -f finaldeploy || true
                     docker run -d --name finaldeploy -p 3000:3000 finaldeploy
