@@ -20,6 +20,7 @@ pipeline {
         stage("build") {
             steps {
                 echo "this is building the code"
+                echo "this is building the code"
                 sh "docker build -t finaldeploy ."
                 echo "code successfully built docker image"
             }
