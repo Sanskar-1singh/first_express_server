@@ -30,7 +30,13 @@ pipeline {
                 echo "this is testing the code"
             }
         }
-        stage("deploy") {
+        
+        stage('Approval') {
+            steps {
+                input "Deploy to Production?"
+            }
+        }
+        stage("Deploy to Production") {
             steps {
                 echo "this is deploying the code"
                 sh """
