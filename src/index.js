@@ -71,6 +71,7 @@ app.post('/data',(req,res)=>{
     return res.json({msg:'ok'});
 })
 
+//hello i am sanslar singh building pipelines code  build test deployment
 // as we did not send sensitive data from query params or query url thus for that purpose we use req body becuase it is part of request body thus it did not cached and did not save as 
 // history in our browser basically it is more safe>>>
 
