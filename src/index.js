@@ -5,7 +5,7 @@ const bodyparser=require('body-parser');
 //here we are using cjs moduling>>
 
 //when we  call this function it will create a http server object>>
-const app=express();
+//const app=express();
 const PORT=3000;
 app.listen(PORT,()=>{
     console.log(`server stated at port ${PORT}`);
