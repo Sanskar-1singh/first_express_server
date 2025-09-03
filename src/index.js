@@ -1,5 +1,5 @@
 const express=require('express');
-const bodyparser=require('body-parser');
+const bodyparser=require('body-parser')
 //all this is happening on application layer
 //when we call the function express we create a new express server object
 //here we are using cjs moduling>>
